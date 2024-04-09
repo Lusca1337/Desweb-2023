@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Mminecraft';
+    color: black;
+}
+
+@font-face {
+    font-family: 'Mminecraft';
+    src: url(font/Minecraftia-Regular.ttf) format(truetype);
+}
+
+header {
+    border: solid blue 3px;
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin: 30px;
+    background-image: url(./img/nuvens.jpg);
+}
+
+.container {
+    margin: 30px;
+    padding: 20px;
+    display: grid;
+    grid-template:
+    'servico1 servico2'
+    'servico3 servico4'
+    'servico5 .';
+    grid-gap: 50px;
+}
+
+.servico1 {
+    grid-area: servico1;
+    border: solid blue 3px;
+    border-radius: 10px;
+    padding: 20px;
+    height: 450px;
+    font-size: 20px;
+    color: black;
+    background-image: url(./img/nuvens.jpg);
+}
+.servico2 {
+    grid-area: servico2;
+    border: solid blue 3px;
+    border-radius: 10px;
+    padding: 20px;
+    height: 450px;
+    font-size: 22px;
+    background-image: url(./img/nuvens.jpg);
+}
+.servico3 {
+    grid-area: servico3;
+    border: solid blue 3px;
+    border-radius: 10px;
+    padding: 18px;
+    height: 450px;
+    font-size: 22px;
+    background-image: url(./img/nuvens.jpg);
+}
+.servico4 {
+    grid-area: servico4;
+    border: solid blue 3px;
+    border-radius: 10px;
+    padding: 20px;
+    height: 450px;
+    font-size: 22px;
+    background-image: url(./img/nuvens.jpg);
+}
+
+.servico5 {
+    grid-area: servico5;
+    border: solid blue 3px;
+    border-radius: 10px;
+    padding: 20px;
+    height: 450px;
+    font-size: 22px;
+    background-image: url(./img/nuvens.jpg);
+}
+
+p {
+    margin: 30px;
+}
+
+.espacamento {
+    margin: 30px;
+    padding-left: 50px;
+}
+
+img {
+    width: 700px;
+}
+
+.home {
+    margin: 20px;
+    border: solid blue 3px;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    background-image: url(./img/nuvens.jpg);
+}

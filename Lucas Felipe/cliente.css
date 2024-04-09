@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Mminecraft';
+}
+
+@font-face {
+    font-family: 'Mminecraft';
+    src: url(font/Minecraftia-Regular.ttf) format(truetype);
+}
+
+header {
+    border: solid blue 3px;
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-image: url(./img/nuvens.jpg);
+}
+
+#titulo {
+    width: 700px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    border: solid blue 3px;
+    margin: 30px;
+    font-size: 30px;
+    height: 280px;
+    padding: 30px;
+    cursor: default;
+    background-image: url(./img/nuvens.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.img1 {
+    height: 340px;
+    margin-right: 20px;
+}
+
+.img2 {
+    height: 340px;
+    margin-left: 20px;
+}
+
+.img3 {
+    height: 340px;
+    margin-right: 20px;
+}
+
+.img4 {
+    height: 340px;
+    margin-left: 20px;
+}
+
+.home {
+    margin: 20px;
+    border: solid blue 3px;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    background-image: url(./img/nuvens.jpg);
+    text-decoration: none;
+}
